@@ -1,0 +1,184 @@
+.actividad-detalle{
+
+    .content-back{
+        margin-bottom: 25px;
+        a{
+            padding: 10px 0;
+        }
+    }
+    .wrapper-info{
+        padding: 0 10px;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+        letter-spacing: -1px;
+        margin-bottom: 20px;
+    }
+
+    h4{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 0;
+        color: #464646;
+        margin-bottom: 28px;
+        img{
+            margin-top: -10px;
+            margin-right: 11px;
+        }
+    }
+
+    .content-title{
+        position: relative;
+        float: left;
+        width: 100%;
+        border-width: 0 0 1px;
+        border-style: solid;
+        border-color: #EAEAEA;
+        margin: 0 0 25px;
+        h3{
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 28px;
+            letter-spacing: -1px;
+            position: relative;
+            float: left;
+            color: #464646;
+            padding: 0 12px 0;
+            &:after{
+                content: ' ';
+                position: absolute;
+                bottom: -10px;
+                background-color: #FF6C5F;
+                height: 2px;
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+
+    .puntos{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+
+        color: #464646;
+    }
+    
+    
+
+    p, ul li{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .que-incluye{
+        margin-top: 97px;
+    }
+    .carousel {
+        .carousel__viewport{
+            border-radius: 4px;
+            border-style: solid;
+            border-width: 0;
+            max-height: 369px;
+            .carousel__track{
+                margin-bottom: 0;
+                .carousel__slide {
+                    padding: 0;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+            }
+        }
+
+        .carousel__icon{
+            -webkit-filter: invert(100%); 
+            filter: invert(100%);
+        }
+
+        .carousel__pagination{
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+
+            .carousel__pagination-item{
+                .carousel__pagination-button{
+                    &:after{
+                        border-radius: 50%;
+                        width: 9px;
+                        height: 9px;
+                        background: #C4C4C4;
+                    }
+
+                    &.carousel__pagination-button--active{
+                        &:after{
+                            background: #FF6C5E;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .locations{
+        margin-bottom: 75px;
+        .icon{
+            width: 15px;
+            height: auto;
+            margin-right: 8px;
+        }
+    }
+
+    .participants{
+        display: flex;
+        gap: 5px;
+        align-items: baseline;
+        margin: 24px 0;
+
+        .icons{
+            height: 14px;
+            margin-left: 1px;
+            img{
+                height: 100%;
+                width: auto;
+                padding-bottom: 1px;
+                margin-left: -1px;
+            }
+        }
+        span{
+            
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
+    .benefits{
+        ul{
+            padding: 32px 27px 0;
+            position: relative;
+            float: left;
+            width: 100%;
+            li{
+                font-size: 18px;
+                margin-bottom: 25px;
+                font-weight: 300;
+                line-height: 22px;
+            }
+        }
+    }
+
+    .content-reglas{
+        position: relative;
+        float: left;
+        width: 100%;
+        margin: 24px 0 20px;
+    }
+}

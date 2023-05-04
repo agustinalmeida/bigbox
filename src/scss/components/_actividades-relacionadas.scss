@@ -1,0 +1,61 @@
+.actividades-relacionadas{
+    margin-bottom: 70px;
+
+    h4{
+        margin-bottom: 47px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 0;
+        color: #464646;
+    }
+
+    .item-box{
+        @media(max-width: 992px){
+            margin-bottom: 24px;
+        }
+        .head {
+            h3{
+                margin-bottom: 12px;
+            }
+        }
+        .locations{
+            font-size: 15px;
+            margin-bottom: 9px;
+        }
+        picture{
+            margin-bottom: 8px;
+            img{
+                height: 201px;
+            }
+        } 
+
+        p{
+            margin-bottom: 20px;
+        }
+    } 
+
+    .carousel {
+        .carousel__next, .carousel__prev{
+            top: 107px;
+
+            .carousel__icon{
+                -webkit-filter: invert(100%); /* Safari/Chrome */
+                filter: invert(100%);
+            }
+        }
+        .carousel__viewport{
+            
+            .carousel__track{
+                
+                .carousel__slide {
+                    padding: 0 6px;
+                    align-items: baseline;
+                    img{
+                                    
+                    }
+                }
+            }
+        }
+    }
+}
