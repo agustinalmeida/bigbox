@@ -4,8 +4,8 @@ import ActividadesBigBox from './components/ActividadesBigBox.vue'
 import ActividadDetalle from './components/ActividadDetalle.vue'
 
 const routes = [
-  { path: '/', component: HomeApp },
-  { path: '/actividades', component: ActividadesBigBox },
+  { path: '/', name:'Home' , component: HomeApp },
+  { path: '/actividades', name: 'actividades', component: ActividadesBigBox },
   {
     path: '/actividades/:id',
     name: 'actividad',

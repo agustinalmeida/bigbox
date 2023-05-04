@@ -8,7 +8,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <carousel v-bind="settings">
+                    <carousel v-bind="settings" :breakpoints="breakpoints">
                         <slide v-for="relacion in relaciones" :key="relacion">          
                             <router-link :to="'../actividades/' + relacion.id" class="no-decoration">
                                 <ItemBox :item="relacion"/>         
@@ -45,13 +45,21 @@
             return {
                 relaciones: null,
                 settings: {
-                    itemsToShow: 4,
+                    itemsToShow: 1,
                     snapAlign: 'start',
                     itemsToScroll: 1,
                     transition: 700,
                     autoplay: 3000,
-                    wrapAround: true
-                }
+                    wrapAround: true                    
+                },
+                breakpoints: {
+                    992: {
+                        itemsToShow: 4
+                    },
+                    640: {
+                        itemsToShow: 2
+                    }
+                }                
             }
         },
         props:{
